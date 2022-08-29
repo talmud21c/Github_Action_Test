@@ -14,4 +14,4 @@ jobs:
         key: ${{ secrets.KEY }}
         port: ${{ secrets.PORT }}
         script: |
-          echo hello!
+          echo hello!!
