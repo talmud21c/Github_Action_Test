@@ -19,3 +19,4 @@ jobs:
           cd work/Github_Action_Test
           ls -al
           git pull
+          python manage.py runserver
