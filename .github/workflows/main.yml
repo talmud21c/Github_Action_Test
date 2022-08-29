@@ -6,7 +6,8 @@ jobs:
     name: Build
     runs-on: ubuntu-latest
     steps:
-    - name: executing remote ssh commands using password
+    - uses: actions/checkout@v3
+    - name: executing remote ssh commands using key
       uses: appleboy/ssh-action@master
       with:
         host: ${{ secrets.HOST }}
@@ -14,4 +15,4 @@ jobs:
         key: ${{ secrets.KEY }}
         port: ${{ secrets.PORT }}
         script: |
-          echo hello!!
+          echo "hello!"
