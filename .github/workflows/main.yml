@@ -18,3 +18,4 @@ jobs:
           ls -al
           cd work/Github_Action_Test
           ls -al
+          git pull
