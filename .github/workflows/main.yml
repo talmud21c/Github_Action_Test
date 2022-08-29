@@ -16,4 +16,4 @@ jobs:
         port: ${{ secrets.PORT }}
         script: |
           ls -al
-          cd /home/work/Github_Action_Test
+          cd work/Github_Action_Test
