@@ -15,6 +15,7 @@ jobs:
         key: ${{ secrets.KEY }}
         port: ${{ secrets.PORT }}
         script: |
+          source /home/work/bin/activate
           cd /home/work/Github_Action_Test
-          git pull
+          git pull origin
           python3 manage.py runserver
