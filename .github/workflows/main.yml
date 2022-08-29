@@ -17,3 +17,4 @@ jobs:
         script: |
           ls -al
           cd work/Github_Action_Test
+          ls -al
