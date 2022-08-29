@@ -16,7 +16,9 @@ jobs:
         port: ${{ secrets.PORT }}
         script: |
           ls -al
-          cd work/Github_Action_Test
+          cd work
+          source venv/bin/activate
+          cd Github_Action_Test
           ls -al
           git pull
 
