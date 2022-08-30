@@ -1,4 +1,4 @@
-name: deploy django project with github actions
+name: deploy test django project with github actions
 on: [push]
 jobs:
 
